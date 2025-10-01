@@ -1,7 +1,6 @@
 #include "../include/16g.h"
 #include <algorithm>
 #include <cctype>
-#include <iostream>
 
 Hex::Hex() : data_(new unsigned char[1]{0}), size_(1) {}
 
